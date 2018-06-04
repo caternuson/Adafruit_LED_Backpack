@@ -25,7 +25,7 @@
 
 .. todo:: Describe what the module does
 
-* Author(s): Carter Nelson
+* Author(s): Carter Nelson (RTD test)
 
 Implementation Notes
 --------------------
