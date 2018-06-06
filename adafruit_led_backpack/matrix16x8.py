@@ -20,7 +20,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
 """
-`matrix8x8`
+`matrix16x8`
 ====================================================
 
 .. todo:: Describe what the module does
@@ -52,8 +52,8 @@ __repo__ = "https://github.com/adafruit/Adafruit_CircuitPython_LED_Backpack.git"
 
 from adafruit_ht16k33.ht16k33 import HT16K33
 
-class Matrix8x8(HT16K33):
-    """Class for using a 8x8 LED matrix."""
+class Matrix16x8(HT16K33):
+    """Class for using a 16x8 LED matrix."""
 
     def __init__(self, i2c, address=0x70):
-        super(Matrix8x8, self).__init__(i2c, address, size=(8, 8))
+        super(Matrix16x8, self).__init__(i2c, address, size=(16, 8))
